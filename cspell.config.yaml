@@ -1,0 +1,13 @@
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: '0.2'
+dictionaryDefinitions:
+  - name: approved-words
+    path: './approved-words.txt'
+    addWords: true
+dictionaries:
+  - approved-words
+files:
+  - '**/*.md'
+ignorePaths:
+  # this may be unnecessary
+  - '/approved-words.txt'
