@@ -53,6 +53,7 @@ jobs:
 
           # Limit the files checked to the ones in the pull request or push.
           # incremental_files_only: true
+          incremental_files_only: false
 
           # Path to `cspell.json`
           # config: '.'
