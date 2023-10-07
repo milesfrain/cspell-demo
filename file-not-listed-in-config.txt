@@ -1,0 +1,2 @@
+Since we're only looking at .md files in cspell.config.yaml, we don't expect typoos to be flagged in this .txt file.
+This works as expected when running `cspell` locally, but when running it in a GitHub Action, it flags typos in this .txt file.
