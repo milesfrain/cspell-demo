@@ -48,8 +48,7 @@ jobs:
           # Determines if the action should be failed if any spelling issues are found.
           # Allowed values are: true, false
           # Default: true
-          # strict: true
-          strict: false
+          strict: true
 
           # Limit the files checked to the ones in the pull request or push.
           # incremental_files_only: true
